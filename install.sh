@@ -1,3 +1,5 @@
+#!/bin/bash
+cd "$(dirname "$0")"
 which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
