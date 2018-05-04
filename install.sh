@@ -12,3 +12,7 @@ fi
 
 echo "Installing ffmpeg, a file converter."
 brew install ffmpeg
+
+echo "Creating directories ./processed and ./to_process"
+mkdir processed
+mkdir to_process
